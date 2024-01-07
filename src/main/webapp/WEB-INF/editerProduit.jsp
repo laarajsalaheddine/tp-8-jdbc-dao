@@ -20,7 +20,7 @@
 				<form action="update.do" method="post">
 					<div class="form-group my-2">
 						<label class="control-label">ID Produit : </label> <input
-							type="text" name="id" class="form-control" id="idProduit"
+							type="text" name="id" class="form-control" id="idProduit" readonly
 							value="${produit.idProduit}" />
 					</div>
 					<div class="form-group my-2">
